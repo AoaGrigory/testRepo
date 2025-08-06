@@ -9,6 +9,6 @@
 - **Java 17+** (рекомендуется LTS версия)
 - **Maven 3.8.4+** или Gradle 7.4+
 
-### Установка
+### Базовый синтаксис
 ```bash
-mvn clean package
+java -jar data-filter.jar [ОПЦИИ] ФАЙЛ1 ФАЙЛ2 ...
